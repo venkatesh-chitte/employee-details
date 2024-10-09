@@ -1,38 +1,115 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .input-field {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+    display: block;
+    background-color: aqua;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 20px;
   }
-}
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  #list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  #list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #list li:last-child {
+    border-bottom: none;
+  }
+  
+  .delete-btn, .edit-btn {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  .delete-btn {
+    background-color: #ff0000;
+    color: #fff;
+  }
+  
+  .delete-btn:hover {
+    background-color: #cc0000;
+  }
+  
+  .edit-btn {
+    background-color: #f0ad4e;
+    color: #fff;
+  }
+  
+  .edit-btn:hover {
+    background-color: #ec971f;
+  }
+  
+  #form {
+    border: 1px solid black;
+    padding: 20px;
+    width: 300px;
+    max-width: 600px;
+    background-color: #f0ad4e;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  span {
+    flex: 1;
+    text-align: left;
+  }
+  #employee-inputs{
+    margin-left: 100px,30px;
+    height: 400px;
+  }
+  input{
+    height: 30px;
+    margin-bottom: 20px;
+    background-color: aquamarine;
+  }
+  #btn-submit{
+    height: 30px;
+    background-color: #4CAF50;
+  }
+  .header{
+    margin-left: 60px;
+  }
+  
